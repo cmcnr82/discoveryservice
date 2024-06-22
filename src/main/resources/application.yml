@@ -1,5 +1,6 @@
 spring:
   config:
-    import: optional:configserver:https://configserver.railway.internal
+    import:
+     - optional:configserver:configserver.railway.internal
   application:
     name: discovery-service
